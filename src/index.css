@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  
+    background-color: #273858;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;        
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.body:before{
+  content: "";
+  background: url("../src/components/img/bg.jpg") center center no-repeat fixed;        
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.App{   
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
