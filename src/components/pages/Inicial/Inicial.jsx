@@ -1,39 +1,54 @@
+import React from "react";
 import Main from "./Main";
 import img from '../../img/img.jpg'
-import { Button } from "../../Buttons/Button";
-
-
+import { Link } from 'react-router-dom'
+import 'animate.css'
 
 export function Inicial(){
 
     return (
         <>
             <Main>
-                <div>
-                    <img src={img} style={{ width: '150px', borderRadius: '50%', marginBottom: '10px' }}/>
+                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', margin: '0 30px'}}>
+                    <div className="outline" style={{ 
+                        width: 'auto', height:'9%',
+                        display: 'flex', justifyContent: "center", alignItems: 'center', fontFamily: 'Syncopate, sans-serif', fontSize: '28px'}}>
+                        <h1>Oi, eu sou o Claudio</h1>
+                    </div>
+                    <div style={{ 
+                        width: '75%', height:'55%',
+                         borderRadius: '10px',
+                         fontFamily: 'PT Sans, sans-serif', marginTop: '20px'
+                        }}>
+                            <p>
+                                Fullstack Developer, designer e graduando em Marketing, me considero apaixonado por tecnologia
+                                e tudo relacionado à ela. Seja bem vindo(a) ao meu portifólio!
+                            </p>
+                            <a href="https://www.linkedin.com/in/claudionsc/" rel="noopener" target="_blank" className="navbar-logo link">
+                                <i className="fa-brands fa fa-linkedin"></i>
+                            </a> 
+                            <a href="https://github.com/claudionsc" rel="noopener" target="_blank" className="navbar-logo link">
+                                <i className="fa-brands fa fa-github"></i>
+                            </a>
+
+                            
+
+                        <span>
+                            <Link to={'/projetos'}>
+                                <a href="https:/www.google.com" rel="noopener" target="_blank" className="navbar-logo link">
+                                    <i className="fa-solid fa fa-telescope"></i>
+                                    <p>Meus projetos</p>
+                                </a>
+                            </Link>
+                        </span>
+                       
+                                
+                    </div>
                 </div>
 
-                <div style={{ 
-                    width: '85%', height:'9%', backgroundColor: '#3A0044', margin: '20px 0', 
-                    display: 'flex', justifyContent: "center", alignItems: 'center', borderRadius: '10px', }}>
-                    <Button>Contatos</Button>
-                    <Button>Frontend</Button>
-                    <Button>Backend</Button>
-                    <Button>Design</Button>
-                </div>
-                <div style={{ 
-                    width: '75%', height:'55%', backgroundColor: '#3A0044', margin: '20px 0', 
-                    display: 'flex', justifyContent: "center", alignItems: 'center', borderRadius: '10px',
-                    padding: '0 20px'
-                    }}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-                            laborum
-                        </p>
-                </div>
+                    <div>
+                        <img src={img} alt='foto' style={{ width: '150px', borderRadius: '50%', margin: '0 150px'}}/>
+                    </div>
 
             </Main>
         </>

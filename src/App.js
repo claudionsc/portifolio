@@ -1,3 +1,4 @@
+import React from 'react';
 import './index.css'
 import { Inicial } from "./components/pages/Inicial/Inicial";
 

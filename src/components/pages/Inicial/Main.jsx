@@ -1,26 +1,30 @@
+import React from 'react'
 import styled from 'styled-components'
 
 
 const ConstMain = styled.div`
     
-    width: 60vw;
+    width: 80vw;
     height: 85vh;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     padding-top: 40px;
-    /* From https://css.glass */
-    background: rgba(143, 0, 255, 0.61);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(11.8px);
-    -webkit-backdrop-filter: blur(11.8px);
+    margin: 50px 0;
+    background-image: linear-gradient(25deg, #0200245f 0%, #44065e5a 24%, #7963095c 67%, #00d5ff7a 100%);
+    /* background: rgba( 38, 38, 38, 0.15 ); */
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    z-index: 1;
+  
     
 
 `
-const Info = ({children}) => {
+const Main = ({children}) => {
 
     return  <ConstMain>{children}</ConstMain>
 }
 
-export default Info
+export default Main
