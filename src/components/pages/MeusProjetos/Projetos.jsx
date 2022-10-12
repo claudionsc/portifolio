@@ -1,7 +1,10 @@
 import React from "react"
+import Main from "../Inicial/Main"
 
 export default function Projetos(){
     return (
-        <h1>Projetos</h1>
+        <Main style={{ height: '20vh' }}>
+
+        </Main>
     )
 }
