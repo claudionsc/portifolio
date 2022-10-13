@@ -9,7 +9,7 @@ const ConstMain = styled.div`
     display: flex;
     /* flex-direction: column; */
     align-items: center;
-    padding: 20vh 5vh;
+    padding: 5vh 5vh;
     margin: 90px 0;
     background-image: linear-gradient(25deg, #0200245f 0%, #44065e5a 24%, #7963095c 67%, #00d5ff7a 100%);
     /* background: rgba( 38, 38, 38, 0.15 ); */

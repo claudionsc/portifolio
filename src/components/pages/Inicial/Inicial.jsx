@@ -1,5 +1,6 @@
 import React from "react";
 import Main from "./Main";
+import { Button2 } from "../../Buttons/Button2";
 import img from '../../img/img.png'
 import { Link } from 'react-router-dom'
 import 'animate.css'
@@ -9,7 +10,7 @@ export function Inicial(){
     return (
         <>
             <Main>
-                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', margin: '0 30px'}}>
+                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', margin: '90px 30px'}}>
                     <div className="outline" style={{ 
                         width: 'auto', height:'9%',
                         display: 'flex', justifyContent: "center", alignItems: 'center', fontFamily: 'Syncopate, sans-serif', fontSize: '28px'}}>
@@ -24,28 +25,9 @@ export function Inicial(){
                                 Fullstack Developer, designer e graduando em Marketing, me considero apaixonado por tecnologia
                                 e tudo relacionado à ela. Seja bem vindo(a) ao meu portifólio!
                             </p>
-                            
-
-                            
-
-                      
-                       
-                                
+                              
                     </div>
-                </div>
-                    
-                    <div style={{ width: '30vw', height: 'auto', border: '1px solid #502b9e91', borderRadius: '6px', margin: '0 30px', padding: '20px, 10px' }}>
-                        <div className="note">
-                            <img src={img} alt='foto' style={{ width: '100px', margin: '0 150px'}}/>
-                        </div>
-                        <span style={{fontFamily: 'PT Sans, sans-serif', display: 'flex', flexDirection: 'column', alignItems: 'center'}} >
-                            <Link to={'/projetos'}>
-                                <a href="https:/www.google.com" rel="noopener" target="_blank" className="navbar-logo link">
-                                    <i className="fa-solid fa fa-telescope"></i>
-                                    <p>Meus projetos</p>
-                                </a>
-                            </Link>
-                        <div style={{ marginTop: '30px'}}>
+                    <div style={{ marginTop: '30px'}}>
                             <a href="https://www.linkedin.com/in/claudionsc/" rel="noopener" target="_blank" className="navbar-logo link">
                                 <i className="fa-brands fa fa-linkedin"></i>
                             </a> 
@@ -53,7 +35,25 @@ export function Inicial(){
                                 <i className="fa-brands fa fa-github"></i>
                             </a>
                         </div>
-                            <p>Entre em contato comigo!</p>
+                </div>
+                    
+                    <div style={{ width: '30vw', height: 'auto',  borderRadius: '6px', margin: '0 30px', padding: '20px, 10px' }}>
+                        <div className="note">
+                            <img src={img} alt='foto' style={{ width: '100px', margin: '0 150px'}}/>
+                        </div>
+                        <span style={{fontFamily: 'PT Sans, sans-serif', display: 'flex', flexDirection: 'column', alignItems: 'center'}} >
+                           
+                            <Link to={'/projetos'}>
+                                <Button2>
+                                    <p>Meus projetos</p>
+                                </Button2>
+                            </Link>
+
+                            <Link to={'/sobre'}>
+                                <Button2>
+                                    <p>Sobre Mim</p>
+                                </Button2>
+                            </Link>
                         </span>
                         
                     </div>
