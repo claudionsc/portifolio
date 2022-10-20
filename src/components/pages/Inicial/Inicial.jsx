@@ -14,7 +14,7 @@ export function Inicial(){
                     <div className="outline" style={{ 
                         width: 'auto', height:'9%',
                         display: 'flex', justifyContent: "center", alignItems: 'center', fontFamily: 'Syncopate, sans-serif', fontSize: '28px'}}>
-                        <h1>Oi, eu sou o Claudio</h1>
+                        <h1>Oi, bem vindo ao meu portifólio</h1>
                     </div>
                     <div style={{ 
                         width: '75%', height:'55%',
