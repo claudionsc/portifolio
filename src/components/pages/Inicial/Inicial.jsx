@@ -8,9 +8,9 @@ import 'animate.css'
 export function Inicial(){
 
     return (
-        <>
+        
             <Main>
-                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', margin: '90px 30px'}}>
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', margin: '90px 30px'}}>
                     <div className="outline" style={{ 
                         width: 'auto', height:'9%',
                         display: 'flex', justifyContent: "center", alignItems: 'center', fontFamily: 'Syncopate, sans-serif', fontSize: '28px'}}>
@@ -59,6 +59,5 @@ export function Inicial(){
                     </div>
 
             </Main>
-        </>
     )
     }
