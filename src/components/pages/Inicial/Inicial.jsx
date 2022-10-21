@@ -10,16 +10,13 @@ export function Inicial(){
     return (
         
             <Main>
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', margin: '90px 30px'}}>
-                    <div className="outline" style={{ 
-                        width: 'auto', height:'9%',
-                        display: 'flex', justifyContent: "center", alignItems: 'center', fontFamily: 'Syncopate, sans-serif', fontSize: '28px'}}>
+                <div style={{ display: 'flex',  flexDirection: 'column', alignItems: 'flex-start'}}>
+                    <div className="outline">
                         <h1>Oi, bem vindo ao meu portifólio</h1>
                     </div>
                     <div style={{ 
-                        width: '75%', height:'55%',
-                         borderRadius: '10px',
-                         fontFamily: 'PT Sans, sans-serif', marginTop: '20px'
+                        width: '100%', height:'55%',
+                        fontFamily: 'PT Sans, sans-serif', marginTop: '20px'
                         }}>
                             <p>
                                 Fullstack Developer, designer e graduando em Marketing, me considero apaixonado por tecnologia
@@ -37,11 +34,11 @@ export function Inicial(){
                         </div>
                 </div>
                     
-                    <div style={{ width: '30vw', height: 'auto',  borderRadius: '6px', margin: '0 30px', padding: '20px, 10px' }}>
+                    <div className="m-links">
                         <div className="note">
-                            <img src={img} alt='foto' style={{ width: '100px', margin: '0 150px'}}/>
+                            <img src={img} alt='foto'/>
                         </div>
-                        <span style={{fontFamily: 'PT Sans, sans-serif', display: 'flex', flexDirection: 'column', alignItems: 'center'}} >
+                        <span>
                            
                             <Link to={'/projetos'}>
                                 <Button2>
