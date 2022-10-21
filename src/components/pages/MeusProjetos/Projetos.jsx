@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import Main from "../Inicial/Main"
-import { Button } from "../../Buttons/Button"
+// import Main from "../Inicial/Main"
+// import { Button } from "../../Buttons/Button"
 
 const ImgContainer = styled.div`
     width: 25vw;
@@ -28,6 +28,12 @@ const ImgContainer = styled.div`
         scale: 110%;
         
     }
+
+    @media(max-width: 600px){
+        width: 70vw;
+        height: 50vh;
+
+    }
 `
 
 const Grid = styled.div`
@@ -39,63 +45,66 @@ const Grid = styled.div`
     margin: auto;
     margin-top: 200px;
 
+    @media (max-width: 600px){
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+
+`
+
+const Project = styled.div`
+
+    width: 90vw;
+    height: auto;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 600px){
+        margin-top: 500px;
+    }
+
+
 `
 
 
 export default function Projetos(){
     return (
+
+        <Project>
             <Grid>
                 <div >
-                    <ImgContainer>
-            
-                        
-                 </ImgContainer>
+                    <ImgContainer />
                 </div>
+
                 <div>
                     
-                    <ImgContainer>
-            
-                        
-                 </ImgContainer>
-                </div>
+                    <ImgContainer /></div>
                 <div >
-                    <ImgContainer>
-            
-                        
-                 </ImgContainer>
-                </div>
+                    <ImgContainer /></div>
                 <div>
                     
-                    <ImgContainer>
-            
-                        
-                 </ImgContainer>
-                </div>
+                    <ImgContainer /></div>
                 <div >
-                    <ImgContainer>
-            
-                        
-                 </ImgContainer>
-                </div>
+                    <ImgContainer /></div>
                 <div>
                     
-                    <ImgContainer>
-            
-                        
-                    </ImgContainer>
-                </div>
+                    <ImgContainer /></div>
                 <div >
-                    <ImgContainer>
+                    <ImgContainer />
             
-                    </ImgContainer>
+    
                 </div>
                 <div>
                     
-                    <ImgContainer>
+                    <ImgContainer />
                 
-                    </ImgContainer>
+    
                 </div>
             </Grid>
+        </Project>
     )
 }
 
