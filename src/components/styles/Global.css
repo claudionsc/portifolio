@@ -26,7 +26,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100vw;
-    background: rgba(3, 65, 128, 0.68);
+    background: rgba(1, 22, 42, 0.68);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8.7px);
     -webkit-backdrop-filter: blur(8.7px);
@@ -62,10 +62,18 @@ main {
 }
 .container {
     width: 100%;
-    max-width: 720px;
+    max-width: 50vw;
     margin: 0 auto;
-    padding: 0 20px;
-    background-color: yellowgreen;
+    text-align: center;
+    /* height: 30vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
 }
 
 section{
@@ -96,60 +104,119 @@ section{
 }
 
 
- .container  {
-    text-align: center;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.06);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9.1px);
-    -webkit-backdrop-filter: blur(9.1px);
-   
-}
-
 #sec01 .container h1 {
     text-transform: uppercase;
     
 }
 
 #sec02{
-    background-color: rgb(4, 82, 82);
-    background: url(../assets/img/home/abstrato.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    --webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-color: rgb(1, 10, 28);
+    
 }
 
 #sec02 .container {
-    color: black;
-    background-color: none;
+    
+    background: none;
+    border-radius: none;
     box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    width: 100vw;
 }
+
 
 .container h1 {
     margin: 100px 0;
 }
 
 .skills {
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 50px;
     grid-row-gap: 0px;
-    background-color: aqua;
+    justify-content: center;
+    text-align: justify;
+    
 }
 
+.skills div {
+    border: 1px white solid;
+    padding: 20px;
+
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.skills p {
+    padding: 20px 0;
+    width: 20vw;
+}
 
 #sec03{
     background-color: rgb(0, 44, 44);
+    justify-content: center;
+    align-items: center;
 }
+
+#sec03 .container {
+    background: none;
+    border-radius: none;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    max-width: 90vw;
+
+}
+
+#projetos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 90vw;
+    height: 100%;
+    margin-top: 30%;
+    background-color: yellowgreen;
+
+}
+
+.projetos-grid01  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 0px;
+    height: 100%;
+    width: 50vw;
+}
+.projects01 {
+    width: 15vw;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    background-color: red;
+}
+
+.projects02 {
+    width: 30vw;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    background-color: red;
+    margin: 20px auto;
+    
+}
+
+.projects03 {
+    width: 20vw;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    background-color: red;
+    /* margin: 100px 0; */
+}
+
 #sec04{
     background-color: rgb(1, 44, 44);
 }
