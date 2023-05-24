@@ -5,8 +5,9 @@ import {SiAdobeillustrator} from 'react-icons/si'
 
 export const Skills = () => {
     return (
+        <>
+        <p>skills</p>
         <div className='skills'>
-            
             <div className='front'>
                 <span className='icon'>
                     <RiComputerFill />
@@ -31,5 +32,6 @@ export const Skills = () => {
                 <p>concepção e implementação de identidade visual <br /> logotipo, banners, imagens para redes socias <br /> estamparia <br /> edição de imagens <br /> papelaria</p>
             </div>
         </div>
+        </>
     )
 }
