@@ -12,7 +12,6 @@ function Home() {
       </div>
 
       <main>
-
         <section id="sec01">
           <div className="container">
             <h1>Claudio Nascimento</h1>
@@ -29,9 +28,16 @@ function Home() {
 
         <section id="sec03">
           <div className="container">
+          <span className='project-titles'>
+            <p>filtrar</p>
+            <a>todos</a>
+            <a>projetos</a>
+            <a>backend</a>
+            <a>design</a>
+          </ span>
             <Projetos />
           </div>
-          
+
         </section>
         <section id="sec04">
           <div className="container">
