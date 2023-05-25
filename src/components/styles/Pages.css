@@ -1,0 +1,53 @@
+
+.projects-desc{
+    height: auto !important;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    margin: 50px 0;
+}
+
+.desc {
+    width: 30vw;
+}
+
+.projects-desc h1{
+   font-size: 4rem;
+}
+
+#projects-button{
+    width: 30vw;
+    display: flex;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#projects-button a{ 
+    color: black;
+}
+
+#projects-button button{
+   margin-right: 20px ;
+   padding: 10px;
+   border: none;
+}
+
+#projetos-img{
+    max-width: 90vw;
+    margin: 100px auto;
+  
+}
+
+.projetos-item-img img{
+   width: 100%;
+   aspect-ratio: 16/9;
+   object-fit: contain;
+}
+
+.up-page a svg {
+    font-size: 4rem;
+    bottom: 0;
+    right: 0;
+    margin: 0 0 20px 20px;
+}

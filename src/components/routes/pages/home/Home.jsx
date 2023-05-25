@@ -11,8 +11,6 @@ import nave from '../../../assets/img/home/nave.png'
 function Home() {
   return (
     <div className='wrapper'>
-      
-
       <main>
         <section id="sec01">
           <div className="container">

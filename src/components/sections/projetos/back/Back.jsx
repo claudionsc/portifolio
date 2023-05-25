@@ -4,20 +4,20 @@ const BackFilter = () => {
   return (
     <>
     <p>Backend</p>
-        <ul id='backend-filter'>
-            <li className="back-filter">
+        <ul id='backend-list'>
+            <li>
                 <h4>Filmes com protagonismo negro</h4>
                 <p>Backend, banco de dados</p>
             </li>
-            <li className="back-filter">
+            <li>
                 <h4>Cursos</h4>
                 <p>Backend, banco de dados</p>
             </li>
-            <li className="back-filter">
+            <li>
                 <h4>Ecommerce Frutas</h4>
                 <p>Backend, banco de dados</p>
             </li>
-            <li className="back-filter">
+            <li>
                 <h4>Funcionários</h4>
                 <p>Backend, banco de dados</p>
             </li>

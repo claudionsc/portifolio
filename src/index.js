@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom'
 
 import Home from './components/routes/pages/home/Home';
-import App01 from './components/routes/pages/front/App01/App01';
+import { BlackMovies } from './components/routes/pages/front/black movies/BlackMovies';
 
 const router = createBrowserRouter([
   {
@@ -20,8 +20,8 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "App01",
-        element: <App01 />
+        path: "bm",
+        element: <BlackMovies />
       }
     ]
   },

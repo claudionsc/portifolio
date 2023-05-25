@@ -274,7 +274,6 @@ section{
 .projetos-span  {
     display: flex;
     align-items: start;
-    height: 70%;
 }
 
 .projects01 {
@@ -329,6 +328,7 @@ section{
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
 }
+
 .projetos02 img:hover{
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -342,7 +342,7 @@ section{
 
 }
 
-#backend-filter {
+#backend-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
@@ -350,18 +350,13 @@ section{
     grid-row-gap: 0px;
     margin: 0 40px;
     margin-top: 25px;
-
 }
 
-
-
-#backend-filter li {
+#backend-list li {
     background: rgba(0, 29, 54, 0.32);
-    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5.8px);
     -webkit-backdrop-filter: blur(5.8px);
-    border: 1px solid rgba(0, 29, 54, 0.3);
     height: 30vh;
     list-style: none;
     display: flex;
@@ -371,11 +366,11 @@ section{
     transition: all ease-in-out 0.2s;
 }
 
-#backend-filter li:hover{
+#backend-list li:hover{
     transform: scale(1.1);
 }
 
-#backend-filter li p {
+#backend-list li p {
     font-style: italic;
     font-size: .7rem;
 }
