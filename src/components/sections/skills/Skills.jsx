@@ -8,7 +8,7 @@ export const Skills = () => {
         <>
         <p>skills</p>
         <div className='skills'>
-            <div className='front'>
+            <div className='cards'>
                 <span className='icon'>
                     <RiComputerFill />
                 </span>
@@ -16,7 +16,7 @@ export const Skills = () => {
                 <p>Landing pages responsivas <br /> ecommerce sites <br />  api e suas conexões</p>
             </div>
 
-            <div className='back'>
+            <div className='cards'>
                 <span className='icon'>
                     <AiFillDatabase />
                 </span>
@@ -24,7 +24,7 @@ export const Skills = () => {
                 <p>arquitetura e implementação de banco de dados relacionais 1 -1, n -n <br /> arquitetura e implementação de bancos de dados não relacionais </p>
             </div>
 
-            <div className='design'>
+            <div className='cards'>
                 <span className='icon'>
                     <SiAdobeillustrator />
                 </span>

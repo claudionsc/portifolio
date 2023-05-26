@@ -160,13 +160,13 @@ section{
     
 }
 
-.skills div {
+.cards {
     border: 1px white solid;
     padding: 20px;
     transition: all ease 0.5s;
 }
 
-.skills div:hover{
+.cards:hover{
     border: 1px solid var(--main-geral-color);
     -webkit-box-shadow: 3px 3px 36px -7px rgba(3,65,128,0.89);
     -moz-box-shadow: 3px 3px 36px -7px rgba(3,65,128,0.89);
@@ -351,11 +351,8 @@ section{
     margin-top: 25px;
 }
 
-#backend-list li {
-    background: rgba(0, 29, 54, 0.32);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.8px);
-    -webkit-backdrop-filter: blur(5.8px);
+#backend-list .cards {
+    background: rgb(0, 29, 54);
     height: 30vh;
     list-style: none;
     display: flex;
@@ -363,11 +360,9 @@ section{
     align-items: center;
     justify-content: center;
     transition: all ease-in-out 0.2s;
+    border: none;
 }
 
-#backend-list li:hover{
-    transform: scale(1.1);
-}
 
 #backend-list li p {
     font-style: italic;
