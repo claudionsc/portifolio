@@ -1,17 +1,20 @@
 import React from 'react'
+import Header from "../../../navbar/Navbar";
 
 import { Skills } from '../../../sections/skills/Skills'
 import { Projetos } from "../../../sections/projetos/main/Projetos"
 import Back from '../../../sections/projetos/back/Back'
 import SkillsIcons from '../../../sections/skills/SkillsIcons'
 import Contatos from '../../../sections/contatos/Contatos'
-
+import GoToTop from '../../../GoToTop/GoToTop';
 import nave from '../../../assets/img/home/nave.png'
 
 function Home() {
   return (
     <div className='wrapper'>
+      <Header />
       <main>
+        
         <section id="sec01">
           <div className="container">
             <img src={nave}  />

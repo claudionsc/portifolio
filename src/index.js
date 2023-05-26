@@ -9,6 +9,13 @@ import {
 
 import Home from './components/routes/pages/home/Home';
 import { BlackMovies } from './components/routes/pages/front/black movies/BlackMovies';
+import { Cadastro } from './components/routes/pages/front/cadastro/Cadastro';
+import { Cursos } from './components/routes/pages/front/cursos/Cursos';
+import { GFBuscador } from './components/routes/pages/front/github buscador/GFBuscador';
+import { Login } from './components/routes/pages/front/login/Login';
+import { Spider } from './components/routes/pages/front/spider man/Spider';
+import { Spotify } from './components/routes/pages/front/spotify/Spotify';
+import { Wally } from './components/routes/pages/front/wally/Wally';
 
 const router = createBrowserRouter([
   {
@@ -20,9 +27,37 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "bm",
+        path: "black-movies",
         element: <BlackMovies />
-      }
+      },
+      {
+        path: "cadastro",
+        element: <Cadastro />
+      },
+      {
+        path: "cursos",
+        element: <Cursos />
+      },
+      {
+        path: "github-finder",
+        element: <GFBuscador />
+      },
+      {
+        path: "login-page",
+        element: <Login />
+      },
+      {
+        path: "spider-man",
+        element: <Spider />
+      },
+      {
+        path: "spotify-clone",
+        element: <Spotify />
+      },
+      {
+        path: "wally",
+        element: <Wally />
+      },
     ]
   },
   {

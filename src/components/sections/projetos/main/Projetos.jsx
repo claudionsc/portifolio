@@ -17,57 +17,71 @@ export const Projetos = () => {
 
             <div id='projetos'>
                 {/* Black Movies */}
-               <Link to='/bm'>
-               <div className='projetos02'>
-                    <p>Black Movies</p>
-                    <img src={bm01} alt='black movies' />
-                </div>
-               </Link> 
+                <Link to='/black-movies'>
+                    <div className='projetos02'>
+                        <p>Black Movies</p>
+                        <img src={bm01} alt='black movies' />
+                    </div>
+                </Link>
 
                 {/* Github Finder */}
-                <div className="projetos02">
-                    <p>Github Finder</p>
-                    <img src={ghb} alt='github buscador' />
-                </div>
+                <Link to={'/github-finder'}>
+                    <div className="projetos02">
+                        <p>Github Finder</p>
+                        <img src={ghb} alt='github buscador' />
+                    </div>
+                </Link>
 
                 {/* Login Page - Spotify */}
+
                 <span className='projetos-span'>
-                    <div className="projects01">
-                        <p>Login Page</p>
-                        <img src={lgp} alt='login page' />
-                    </div>
+                    <Link to={'login-page'}>
+                        <div className="projects01">
+                            <p>Login Page</p>
+                            <img src={lgp} alt='login page' />
+                        </div>
+                    </Link>
 
-                    <div className="projects01">
-                        <p>Spotify - Clone</p>
-                        <img src={sptf} alt='spotify clone' />
-                    </div>
+                    <Link to={'/spotify-clone'}>
+                        <div className="projects01">
+                            <p>Spotify - Clone</p>
+                            <img src={sptf} alt='spotify clone' />
+                        </div>
+                    </ Link>
                 </span>
-
                 {/* Spider Man - Cursos */}
                 <span className='projetos-span'>
-                    <div className="projects01">
-                        <p>Spider Man - Landing Page</p>
-                        <img src={spm} alt='spider man' />
-                    </div>
+                    <Link to={'/spider-man'}>
+                        <div className="projects01">
+                            <p>Spider Man - Landing Page</p>
+                            <img src={spm} alt='spider man' />
+                        </div>
+                    </Link>
 
-                    <div className="projects01">
-                        <p>Cursos</p>
-                        <img src={cursos} alt='cursos' />
-                    </div>
+                    <Link to={'/cursos'}>
+                        <div className="projects01">
+                            <p>Cursos</p>
+                            <img src={cursos} alt='cursos' />
+                        </div>
+                    </Link>
                 </span>
 
                 {/* Wally */}
                 <span className='projetos-grid01'>
-                    <div className="projects01">
-                        <p>Ache o Wally</p>
-                        <img src={wally} alt='wally' />
-                    </div>
+                    <Link to={'/wally'}>
+                        <div className="projects01">
+                            <p>Ache o Wally</p>
+                            <img src={wally} alt='wally' />
+                        </div>
+                    </Link>
                 </span>
                 <span className='projetos-grid01'>
-                    <div className="projects01">
-                        <p>Tela de cadastro</p>
-                        <img src={cdt} alt='tela de cadastro' />
-                    </div>
+                    <Link to={'/cadastro'}>
+                        <div className="projects01">
+                            <p>Tela de cadastro</p>
+                            <img src={cdt} alt='tela de cadastro' />
+                        </div>
+                    </Link>
                 </span>
 
             </div>
