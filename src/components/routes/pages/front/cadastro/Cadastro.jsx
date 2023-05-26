@@ -13,6 +13,7 @@ import { UpPage } from '../../../../upPage/UpPage'
 import { Desc } from '../../../../DescPages/Desc'
 
 export const Cadastro = () => {
+  
   return (
     <>
     <Desc 

@@ -20,10 +20,7 @@ body p {
 
 html {
     scroll-behavior: smooth;
-    overflow-y: scroll;
 }
-
-
 
 a {
     color: white;

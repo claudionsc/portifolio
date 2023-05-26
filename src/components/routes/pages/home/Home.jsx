@@ -6,7 +6,6 @@ import { Projetos } from "../../../sections/projetos/main/Projetos"
 import Back from '../../../sections/projetos/back/Back'
 import SkillsIcons from '../../../sections/skills/SkillsIcons'
 import Contatos from '../../../sections/contatos/Contatos'
-import GoToTop from '../../../GoToTop/GoToTop';
 import nave from '../../../assets/img/home/nave.png'
 
 function Home() {
