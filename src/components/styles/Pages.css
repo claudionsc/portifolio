@@ -26,6 +26,7 @@
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(1,10,28,1) 100%);
 }
 
+
 .desc {
     width: 30vw;
     margin: 10vh 5vw;
@@ -75,9 +76,8 @@
 .iconspg-container {
     display: flex;
     justify-content: center;
-   
-    
 }
+
 .iconspg {
     display: flex;
     flex-direction: column;
@@ -100,3 +100,39 @@
     -moz-box-shadow: 3px 3px 36px -7px rgba(3,65,128,0.89);
     box-shadow: 3px 3px 36px -7px rgba(3,65,128,0.89);
 }
+
+.backend-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../assets/img/home/astronauta.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.backend-items .projects-desc {
+    background-image: none;
+    margin: 0;
+    width: 50vw;
+}
+.backend-items .tec .iconspg-container {
+    margin-left: 500px;
+    margin: auto;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.backend-items .iconspg {
+  width: 90%;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+.backend-items svg {
+    color: white;
+    font-size: 2rem;
+}
+
