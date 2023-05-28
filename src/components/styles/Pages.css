@@ -50,9 +50,10 @@
 }
 
 #projects-button button{
-   margin-right: 20px ;
+   margin-right: 20px;
    padding: 10px;
    border: none;
+   width: auto;
 }
 
 #projetos-img{
@@ -130,9 +131,44 @@
   text-align: center;
   margin: 0;
   padding: 10px 0;
+  
 }
 .backend-items svg {
     color: white;
     font-size: 2rem;
 }
 
+@media (max-width: 650px){
+    .projects-desc {
+        background-size: cover;
+    }
+
+    .desc {
+        width: 50vw;
+    }
+
+    #projects-button {
+        width: 70vw;
+    }
+    
+}
+
+@media (max-width: 500px){
+    .desc {
+        width: 90%;
+    }
+
+    #projects-button p {
+        font-size: .6rem;
+        font-weight: bold;
+    }
+
+    #projects-button button {
+        width: auto;
+    }
+    
+    .iconspg p {
+        font-size: .6rem;
+    }
+
+}
