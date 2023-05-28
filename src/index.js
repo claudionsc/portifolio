@@ -25,59 +25,59 @@ import { FuncionariosBd } from './components/routes/pages/back/bd-funcionários/
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portifolio",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/portifolio",
         element: <Home />
       },
       {
-        path: "black-movies",
+        path: "/portifolio/black-movies",
         element: <BlackMovies />
       },
       {
-        path: "cadastro",
+        path: "/portifolio/cadastro",
         element: <Cadastro />
       },
       {
-        path: "cursos",
+        path: "/portifolio/cursos",
         element: <Cursos />
       },
       {
-        path: "github-finder",
+        path: "/portifolio/github-finder",
         element: <GFBuscador />
       },
       {
-        path: "login-page",
+        path: "/portifolio/login-page",
         element: <Login />
       },
       {
-        path: "spider-man",
+        path: "/portifolio/spider-man",
         element: <Spider />
       },
       {
-        path: "spotify-clone",
+        path: "/portifolio/spotify-clone",
         element: <Spotify />
       },
       {
-        path: "wally",
+        path: "/portifolio/wally",
         element: <Wally />
       },
       {
-        path: "bd-funcionarios",
+        path: "/portifolio/bd-funcionarios",
         element: <FuncionariosBd />
       },
       {
-        path: "bd-cursos",
+        path: "/portifolio/bd-cursos",
         element: <CursosBd />
       },
       {
-        path: "bd-ecommerce",
+        path: "/portifolio/bd-ecommerce",
         element: <EcommerceBd />
       },
       {
-        path: "bd-filmes",
+        path: "/portifolio/bd-filmes",
         element: <FilmesBd />
       },
     ]
