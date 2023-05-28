@@ -17,7 +17,7 @@ export const Projetos = () => {
 
             <div id='projetos'>
                 {/* Black Movies */}
-                <Link to='/black-movies'>
+                <Link to='/portifolio/black-movies'>
                     <div className='projetos02'>
                         <p>Black Movies</p>
                         <img src={bm01} alt='black movies' />
@@ -25,7 +25,7 @@ export const Projetos = () => {
                 </Link>
 
                 {/* Github Finder */}
-                <Link to={'/github-finder'}>
+                <Link to={'/portifolio/github-finder'}>
                     <div className="projetos02">
                         <p>Github Finder</p>
                         <img src={ghb} alt='github buscador' />
@@ -35,14 +35,14 @@ export const Projetos = () => {
                 {/* Login Page - Spotify */}
 
                 <span className='projetos-span'>
-                    <Link to={'login-page'}>
+                    <Link to={'/portifoliologin-page'}>
                         <div className="projects01">
                             <p>Login Page</p>
                             <img src={lgp} alt='login page' />
                         </div>
                     </Link>
 
-                    <Link to={'/spotify-clone'}>
+                    <Link to={'/portifolio/spotify-clone'}>
                         <div className="projects01">
                             <p>Spotify - Clone</p>
                             <img src={sptf} alt='spotify clone' />
@@ -51,14 +51,14 @@ export const Projetos = () => {
                 </span>
                 {/* Spider Man - Cursos */}
                 <span className='projetos-span'>
-                    <Link to={'/spider-man'}>
+                    <Link to={'/portifolio/spider-man'}>
                         <div className="projects01">
                             <p>Spider Man - Landing Page</p>
                             <img src={spm} alt='spider man' />
                         </div>
                     </Link>
 
-                    <Link to={'/cursos'}>
+                    <Link to={'/portifolio/cursos'}>
                         <div className="projects01">
                             <p>Cursos</p>
                             <img src={cursos} alt='cursos' />
@@ -68,7 +68,7 @@ export const Projetos = () => {
 
                 {/* Wally */}
                 <span className='projetos-grid01'>
-                    <Link to={'/wally'}>
+                    <Link to={'/portifolio/wally'}>
                         <div className="projects01">
                             <p>Ache o Wally</p>
                             <img src={wally} alt='wally' />
@@ -76,14 +76,13 @@ export const Projetos = () => {
                     </Link>
                 </span>
                 <span className='projetos-grid01'>
-                    <Link to={'/cadastro'}>
+                    <Link to={'/portifolio/cadastro'}>
                         <div className="projects01">
                             <p>Tela de cadastro</p>
                             <img src={cdt} alt='tela de cadastro' />
                         </div>
                     </Link>
                 </span>
-
             </div>
         </>
     )
