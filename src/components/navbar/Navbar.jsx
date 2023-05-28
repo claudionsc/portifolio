@@ -7,7 +7,7 @@ function Header() {
   return (
     <nav>
       <div className='logo'>
-        <Link to="/">nsc</Link>
+        <Link to="/portifolio">nsc</Link>
       </div>
         <a href="#sec01">home</a>
         <a href="#sec02">skills</a>

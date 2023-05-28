@@ -35,7 +35,7 @@ export const Projetos = () => {
                 {/* Login Page - Spotify */}
 
                 <span className='projetos-span'>
-                    <Link to={'/portifoliologin-page'}>
+                    <Link to={'/portifolio/login-page'}>
                         <div className="projects01">
                             <p>Login Page</p>
                             <img src={lgp} alt='login page' />
