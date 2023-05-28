@@ -143,6 +143,13 @@
         background-size: cover;
     }
 
+    .projects-desc::before{
+        content: '';
+        width: 100vw;
+        height: 100vh;
+       
+    }
+
     .desc {
         width: 50vw;
     }
@@ -166,7 +173,7 @@
     #projects-button button {
         width: auto;
     }
-    
+
     .iconspg p {
         font-size: .6rem;
     }
