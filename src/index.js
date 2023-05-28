@@ -25,11 +25,11 @@ import { FuncionariosBd } from './components/routes/pages/back/bd-funcionários/
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portifolio",
     element: <App />,
     children: [
       {
-        path: "",
+        path: "/",
         element: <Home />
       },
       {
