@@ -25,7 +25,7 @@ import { FuncionariosBd } from './components/routes/pages/back/bd-funcionários/
 
 const router = createBrowserRouter([
   {
-    path: "/portifolio",
+    path: "/",
     element: <App />,
     children: [
       {
