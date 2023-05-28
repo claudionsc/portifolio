@@ -17,7 +17,7 @@ import {SiAdobephotoshop} from 'react-icons/si'
 import {GrMysql} from 'react-icons/gr'
 
 
-const html = "Meu primeiro contato com HTML foi em 2016, porém só estudei pra valer com 2022. ";
+const html = "Meu primeiro contato com HTML foi em 2016, porém só estudei pra valer en 2022. ";
 const css = "Assim como o HTML, comecei a estudar CSS em 2022, aprendendo principalmente CSS Flexbox e construção de páginas responsivas";
 const scss = "Uma maneira muito interessante de estilizar aplicações, já usei o SASS em alguns dos meus projetos";
 const js = "Minha principal linguagem no momento, Javascript é a base pra quase todos os meus projetos";
@@ -62,7 +62,7 @@ const SkillsIcons = () => {
 
             
         </span>
-        <span className='skilss-texts'>
+        <span className='skills-texts'>
             <p>{text}</p>
         </span>
     </div>

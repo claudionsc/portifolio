@@ -117,17 +117,23 @@ section{
     filter: blur(05px);
     animation: nave 20s ease 0s infinite normal forwards;
 }
+
 @keyframes nave {
 	0% {
 		transform: rotate(0);
+        transform: translateY(0)
 	}
 
     50%{
-        transform: rotate(5deg);
+        transform: rotate(10deg);
+        transform: translateY(-5%);
+
     }
 
 	100% {
 		transform: rotate(0);
+        transform: translateY(0);
+
 	}
 }
 
@@ -214,6 +220,10 @@ section{
 .skills p {
     padding: 20px 0;
     width: 20vw;
+}
+
+.skills-texts {
+    align-self: center;
 }
 
 #sec03{
